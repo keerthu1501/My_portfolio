@@ -1,0 +1,68 @@
+.skills-section {
+    background: #0f0f1e; /* dark theme background */
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .skill-card {
+    background-color: #1e1e2f;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(162, 89, 255, 0.2);
+  }
+  
+  .highlight {
+    color: #a259ff;
+  }
+  
+
+  .modal-footer {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    padding: 1rem;  /* Adjust padding as needed */
+  }
+  
+
+  /* styles for the skill cards */
+.skill-card {
+    background-color: #1e1e2f;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect on skill card */
+  .skill-card:hover {
+    transform: translateY(-10px);  /* Slightly more movement */
+    box-shadow: 0 8px 25px rgba(167, 113, 238, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+
+  /* Update the modal background with the image */
+.modal.fade.show {
+    background: url('../assets/image/modal-bg.avif') no-repeat center center fixed;
+    background-size: cover;
+    z-index: 1050; /* Ensures the modal is displayed above other elements */
+    background-color: transparent;
+  }
+  
+  /* Adjust modal dialog to have a transparent background */
+  .modal-dialog {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+  }
+  

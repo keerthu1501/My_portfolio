@@ -6,6 +6,10 @@ import modalBackground from '../assets/image/modal-bg.avif';
 import { BsTransparency } from "react-icons/bs";
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6519c1e (Initial commit)
 // List of skills and their detailed descriptions
 const skillList = [
   { skill: "React.js", details: "I have extensive experience in React.js, building dynamic and responsive web applications using hooks, context, and other modern React features." },

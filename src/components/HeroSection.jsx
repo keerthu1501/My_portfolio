@@ -75,7 +75,7 @@ const HeroSection = () => {
             {typedText}
             <span className="blinking-cursor">|</span>
           </p>
-        )}
+        )} 
 
         <motion.a
           href="#contact"
